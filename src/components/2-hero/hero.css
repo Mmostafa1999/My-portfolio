@@ -1,0 +1,100 @@
+/* ===========================
+ table of contents
+==============================
+1. Left Section
+2. Right Section ==> animation*/
+
+section.hero {
+  margin-top: 3rem;
+}
+
+/* ========================
+    1. Left Section
+=========================== */
+section.hero .parent-avatar.flex {
+  align-items: end;
+  gap: 0.6rem;
+  min-height: 88px;
+}
+
+section.hero .left-section {
+  flex-grow: 1;
+}
+
+section.hero .avatar {
+  width: 20%;
+
+  border-radius: 50%;
+  border: 1px solid darkorange;
+  padding: 1px;
+  box-shadow: 2px 2px 40px rgba(203, 200, 200, 0.586) inset;
+}
+
+section.hero h1.title {
+  font-size: 2.85rem;
+  line-height: 3.3rem;
+  margin: 24px 0;
+  color: var(--title);
+}
+
+section.hero p.sub-title {
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  line-height: 1.65rem;
+  margin-bottom: 32px;
+}
+
+section.hero .all-icons {
+  font-size: 1.3rem;
+  gap: 1.5rem;
+  color: var(--subtitle);
+  display: flex;
+  gap: 100px;
+}
+section.hero .all-icons .links {
+  display: flex;
+  gap: 10px;
+}
+section.hero .all-icons .links a {
+  background-color: rgba(36, 37, 46, 1);
+  border-radius: 50%;
+  padding: 0.8rem;
+}
+section.hero .all-icons .icon:hover {
+  font-size: 1.4rem;
+  transition: 0.3s;
+  cursor: pointer;
+  color: var(--icon-hover);
+}
+
+section.hero .all-icons button {
+  background-color: rgba(36, 37, 46, 1);
+  width: 11rem;
+  text-align: center;
+  font-size: 1.05rem;
+  text-transform: capitalize;
+  opacity: 1;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  padding: 0.8rem 0;
+  color: #fff;
+}
+
+/* ===================================
+    2. Right Section ==> animation
+====================================== */
+section.hero .animation {
+  width: 100%;
+  translate: 100px 55px;
+}
+
+@media (max-width: 1250px) {
+  section.hero .animation {
+    display: none;
+  }
+  section.hero .all-icons {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
