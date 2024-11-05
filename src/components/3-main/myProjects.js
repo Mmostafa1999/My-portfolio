@@ -4,7 +4,7 @@ export const myProjects = [
     projectDesc:
       "This is a web-based system that deals with the issue of managing and booking appointments according to user’s choice/necessity. Patients can select doctors based on their medical needs and they can look at their details and reviews to learn more. Hence this project offers an effective solution where users can view various booking slots available and select the preferred date and time. This reduces physical waiting time and not only saves time for the users but also makes the appointment process more efficient",
     category: ["react"],
-    imgPath: "../../../public/images/doctor-appointment.png",
+    imgPath: "public/images/doctor-appointment.png",
     demoLink: "https://shifaa.vercel.app/",
     repoLink: "https://github.com/Mmostafa1999/Doctors-Appointments",
   },
