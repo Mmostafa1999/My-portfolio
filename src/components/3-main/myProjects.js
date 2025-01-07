@@ -28,6 +28,26 @@ export const myProjects = [
   },
 
   {
+    projectTitle: "Game Over App",
+    projectDesc:
+      "The Game Over App is built using HTML5, CSS3, Bootstrap, JavaScript (ES6), and Object-Oriented Programming (OOP) principles. This project fetches and displays game categories from an API and allows users to view detailed information about each game by clicking on it. Additionally, users must log in to access the website's content, ensuring a personalized and secure experience.",
+    category: ["js"],
+    imgPath: "./assets/game-over.png",
+    demoLink: "https://game-over-app.netlify.app/",
+    repoLink: "https://github.com/Mmostafa1999/Game-Over",
+  },
+
+  {
+    projectTitle: "Weather App",
+    projectDesc:
+      "The 3 Days Weather application is a user-friendly web app that provides a weather forecast for the next three days. Built with HTML, CSS, Bootstrap and JavaScript, this application incorporates a search functionality with real-time suggestions, making it easy for users to find the weather for their desired location. The app is responsive and delivers an intuitive user experience.",
+    category: ["js"],
+    imgPath: "./assets/weather-app.png",
+    demoLink: "https://3days-weather.netlify.app/",
+    repoLink: "https://github.com/Mmostafa1999/Weather-app",
+  },
+
+  {
     projectTitle: "Hotel Template Website",
     projectDesc:
       "The Hotel Template Website provides a seamless experience for hotel owners to showcase their property and services online. With its clean and intuitive design, visitors can easily navigate through various sections of the website to explore rooms, make reservations, and get in touch with the hotel.",
@@ -88,13 +108,13 @@ export const myProjects = [
   },
 
   {
-    projectTitle: "TinDog",
+    projectTitle: "Devfolio Template",
     projectDesc:
-      "The TinDog project is a responsive website crafted specifically for dog lovers looking to connect with others in their community. This application showcases the powerful capabilities of Bootstrap, allowing for a clean, modern design that adapts seamlessly to various screen sizes.",
+      "The DevFolio is a responsive website template built with HTML, CSS, and Bootstrap. This template is designed to help individuals showcase their professional profiles, skills, services, portfolio, blog, and contact information in a structured and visually appealing manner.",
     category: ["bootstrap"],
-    imgPath: "./assets/tindog.png",
-    demoLink: "https://mmostafa1999.github.io/TinDog/",
-    repoLink: "https://github.com/Mmostafa1999/TinDog",
+    imgPath: "./assets/devfolio.png",
+    demoLink: "https://mmostafa1999.github.io/Devfolio/",
+    repoLink: "https://github.com/Mmostafa1999/Devfolio",
   },
 
   {
